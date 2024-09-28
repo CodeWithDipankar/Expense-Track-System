@@ -5,14 +5,15 @@ body {
 .container {
     background-color: #ffffff; /* White background for the form */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    padding: 30px; /* Space inside the form */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    padding: 40px; /* Increased padding inside the form */
     max-width: 400px; /* Max width for the form */
     margin: auto; /* Center the form */
 }
 
 h2 {
     color: #343a40; /* Darker text color for the heading */
+    margin-bottom: 20px; /* Added space below the heading */
 }
 
 .btn-primary {
@@ -27,8 +28,17 @@ h2 {
 
 .form-control {
     border-radius: 4px; /* Rounded input fields */
+    margin-bottom: 1.5rem; /* Space between input fields */
 }
 
-.form-group {
-    margin-bottom: 1.5rem; /* Space between form groups */
+.form-control.is-invalid {
+    border-color: #dc3545; /* Red border for invalid input */
+}
+
+.form-control-feedback {
+    display: block; /* Display feedback messages */
+    color: #dc3545; /* Bootstrap danger color */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    margin-top: -10px; /* Bring the error message closer to the input field */
+    margin-bottom: 10px; /* Space between error message and next field */
 }
