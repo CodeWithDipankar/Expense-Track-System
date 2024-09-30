@@ -27,8 +27,8 @@ const NavbarComponent = () => {
                     <Modal.Title>Profile Details</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <p>Name: John Doe</p>
-                    <p>Email: johndoe@example.com</p>
+                    <p>Name: DIPANKAR MANDAL</p>
+                    <p>Email: DIPANKAR0535@GMAIL.COM</p>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
